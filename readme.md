@@ -29,17 +29,29 @@ Run the following command in the terminal to import the ROM file:
 Make sure that the .env file in the project directory is properly configured. These are the default values:
 
 GAME_NAME=MsPacMan-Genesis
+
 MODEL_PREFIX=ms_pacman_ppo_
+
 MODEL_FILE_SUFFIX=final.zip
+
 MODEL_DIR=models
+
 TENSORBOARD_LOG=./tensorboard/
+
 LOG_DIR=logs
+
 RENDER=False
+
 TIMESTEPS=1000000
+
 TRIALS=50
+
 PARALLEL_ENVS=128
+
 LEARNING_RATE=0.0005
+
 N_EPOCHS=10
+
 N_EVAL_EPISODES=10
 
 **Training**
